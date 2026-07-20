@@ -1,18 +1,16 @@
 {
   "name": "aternos-247-bot",
   "version": "1.1.0",
-  "description": "A 24/7 Minecraft bot to keep Aternos servers active and bypass auto-shutdown due to inactivity.",
+  "description": "Aternos 24/7 bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=22.0.0"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "mineflayer": "^4.20.1",
-    "socket.io": "^4.7.5"
-  },
-  "license": "MIT"
+    "mineflayer": "^4.20.0"
+  }
 }
+
